@@ -5,9 +5,9 @@ managed:
     default: challenge
 plugins:
   - name: go
-    out: .
+    out: gen
     opt: paths=source_relative
   - name: go-grpc
-    out: .
+    out: gen
     opt:
       - paths=source_relative

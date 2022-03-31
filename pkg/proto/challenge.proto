@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package pkg;
+
 message Link {
     string data = 1;
 }
